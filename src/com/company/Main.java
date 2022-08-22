@@ -9,7 +9,7 @@ public class Main {
         TreeSet<City>treeset=new TreeSet(new Comparator<City>() {
             @Override
             public int compare(City o1, City o2) {
-                return Integer.compare(o1.code, o2.code);
+                return Integer.compare(o2.code, o1.code);
             }
         });
         City[] cities={new City(8,"Berlin"),
